@@ -12,10 +12,6 @@
         DEBUG
 -----------------------*/
 
-div {
-    border: 2px dashed #000;
-}
-
 .container.header-menu  {
     border: 2px dashed #000;
 }
