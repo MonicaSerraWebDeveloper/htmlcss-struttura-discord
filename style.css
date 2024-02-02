@@ -12,6 +12,10 @@
         DEBUG
 -----------------------*/
 
+div {
+    border: 2px dashed #000;
+}
+
 .container.header-menu  {
     border: 2px dashed #000;
 }
@@ -29,6 +33,9 @@
     border: 2px dashed #000;
 }
 
+.col-25-footer {
+    border: 2px dashed #fff;
+}
 
 /*---------------------
         GENERAL
@@ -106,11 +113,12 @@ nav a {
 .container-blue {
     background-color: #0d008b;
     justify-content: center;
+    border-bottom: 2px solid #add8e6;
 }
 
 .hero {
     width: 800px;
-    height: 340px;
+    min-height: 340px;
     background-color: #ee82ef;
 }
 
@@ -119,7 +127,7 @@ nav a {
 -----------------------*/
 
 .box {
-    height: 440px;
+    min-height: 440px;
 }
 
 .box-blue {
@@ -135,7 +143,7 @@ nav a {
 .box-green {
     background-color: #228b23;
     width: 100%;
-    height: 650px;
+    min-height: 650px;
 }
 
 .container-grey {
@@ -150,3 +158,50 @@ nav a {
 /*---------------------
         FOOTER
 -----------------------*/
+
+footer {
+    background-color: #23272a;
+}
+
+.first-footer {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.pink-div {
+    width: 30%;
+    background-color: #f18080;
+}
+
+.lightblue-div {
+    display: flex;
+    width: 70%;
+    background-color: #1eb2aa;
+}
+
+.col-25-footer {
+    min-height: 440px;
+    width: 25%;
+}
+
+.second-footer {
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7effd4;
+    padding: 16px 0; 
+}
+
+.footer-item {
+    background-color: #ffb6c1;
+    padding: 2px 8px;
+}
