@@ -1,0 +1,87 @@
+/*---------------------
+        RESET
+-----------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------------
+        DEBUG
+-----------------------*/
+
+.container  {
+    border: 2px dashed #000;
+}
+
+.col-50 {
+    border-right: 3px dashed #000;
+    border-left: 3px dashed #000;
+}
+
+
+/*---------------------
+        GENERAL
+-----------------------*/
+
+body {
+    background-color: #fff; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---------------------
+        HEADER
+-----------------------*/
+
+header {
+    background-color: #add8e6;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header > .container {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #daa520;
+}
+
+nav ul  {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding-right: 5px;
+    list-style: none;
+}
+
+nav a {
+    color: #000; 
+    text-decoration: none;
+}
+
+.col-header {
+    padding: 10px 0;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-25:last-child {
+    text-align: right;
+}
