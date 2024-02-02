@@ -12,7 +12,7 @@
         DEBUG
 -----------------------*/
 
-.container  {
+.container.header-menu  {
     border: 2px dashed #000;
 }
 
@@ -22,6 +22,10 @@
 }
 
 .hero {
+    border: 2px dashed #000;
+}
+
+.box {
     border: 2px dashed #000;
 }
 
@@ -97,11 +101,11 @@ nav a {
 .container-main {
     padding: 40px 0;
     display: flex;
-    justify-content: center;
 }
 
 .container-blue {
     background-color: #0d008b;
+    justify-content: center;
 }
 
 .hero {
@@ -109,3 +113,40 @@ nav a {
     height: 340px;
     background-color: #ee82ef;
 }
+
+/*---------------------
+    GENERAL CONTENT
+-----------------------*/
+
+.box {
+    height: 440px;
+}
+
+.box-blue {
+    background-color: #1e90ff;
+    width: 60%;
+}
+
+.box-pink {
+    background-color: #ffc0cc;
+    width: 40%;
+}
+
+.box-green {
+    background-color: #228b23;
+    width: 100%;
+    height: 650px;
+}
+
+.container-grey {
+    background-color: #d3d3d3;
+}
+
+.container-grey > .container-main{
+    flex-direction: row-reverse;
+}
+
+
+/*---------------------
+        FOOTER
+-----------------------*/
