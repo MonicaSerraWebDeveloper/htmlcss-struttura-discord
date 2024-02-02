@@ -58,6 +58,10 @@ header > .container {
     background-color: #daa520;
 }
 
+nav {
+    flex-grow: 0.5;
+}
+
 nav ul  {
     display: flex;
     justify-content: center;
@@ -73,21 +77,10 @@ nav a {
     text-decoration: none;
 }
 
-.col-header {
+.header-menu > * {
     padding: 10px 0;
 }
 
-.col-25 {
-    width: 25%;
-}
-
-.col-50 {
-    width: 50%;
-}
-
-.col-25:last-child {
-    text-align: right;
-}
 
 /*---------------------
         HERO
