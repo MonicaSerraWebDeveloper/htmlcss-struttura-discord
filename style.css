@@ -89,6 +89,7 @@ nav a {
 .container-main {
     padding: 40px 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container-blue {
