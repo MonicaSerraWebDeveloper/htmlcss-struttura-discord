@@ -21,6 +21,10 @@
     border-left: 3px dashed #000;
 }
 
+.hero {
+    border: 2px dashed #000;
+}
+
 
 /*---------------------
         GENERAL
@@ -41,7 +45,7 @@ header {
 }
 
 .container {
-    max-width: 1180px;
+    max-width: 1080px;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -84,4 +88,24 @@ nav a {
 
 .col-25:last-child {
     text-align: right;
+}
+
+/*---------------------
+        HERO
+-----------------------*/
+
+.container-main {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container-blue {
+    background-color: #0d008b;
+}
+
+.hero {
+    width: 800px;
+    height: 340px;
+    background-color: #ee82ef;
 }
